@@ -1,0 +1,148 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #f8f9fa;
+}
+
+.logo {
+  color: #007bff;
+}
+
+.signup-btn {
+  background: #00bfff;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+  background: #f0f2f5;
+}
+
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.primary-btn {
+  padding: 0.75em 1.5em;
+  background: #00bfff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  padding: 0.5em 1em;
+  background: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em 0;
+}
+
+.stats {
+  background: #eee;
+  padding: 2em 0;
+  text-align: center;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+
+.testimonials {
+  text-align: center;
+  padding: 2em 0;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+  width: 250px;
+}
+
+.cta {
+  background: #f3f0ff;
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.contact {
+  padding: 2em 0;
+}
+
+.contact h3 {
+  font-size: 1.8em;
+  color: #4a40e8;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+input, textarea {
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background: #4a40e8;
+  color: white;
+  padding: 0.75em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #f8f9fa;
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.footer nav a {
+  color: #007bff;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
